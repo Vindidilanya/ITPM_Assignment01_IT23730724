@@ -11,9 +11,8 @@
 | Module | IT3040 – IT Project Management (ITPM) |
 | Year / Semester | Year 3, Semester 1 |
 | Option | Option 1 – Transliteration Accuracy Testing |
-| Weightage | 18% of overall unit marks |
 | Student ID | IT23730724 |
-| Submission Deadline | 5th May |
+| Submission Date | 4th May |
 
 ---
 
@@ -61,18 +60,17 @@ The 50 test cases span all 24 input types from Appendix 1:
 ---
 
 ## Project Structure
+## Project Structure
 
 ```
-ITPM_Assignment_1_IT23730724/
-├── test_automation/
-│   ├── test_automation.py              # Playwright automation script
-│   ├── IT23730724_Test cases.xlsx      # Test cases and execution results
-│   └── README.md                       # Quick-start guide
-├── .gitignore
-├── .gitattributes
-└── README.md                           # This file
+test_automation/IT23730724_requirments.txt
+test_automation/IT23730724_Test cases.xlsx
+test_automation/README.md
+test_automation/test_automation.py
+.gitattributes
+.gitignore
+README.md
 ```
-
 ---
 
 ## Prerequisites
@@ -186,19 +184,3 @@ The test case file follows the structure defined in Appendix 2 of the assignment
 | Singlish input types covered | Input type(s) from Appendix 1 |
 | Evidence or rationale | Justification for the input type classification |
 
----
-
-## Plagiarism Notice
-
-Submitted Excel files are checked for plagiarism. Any submission with a similarity score greater than **10%** will be considered plagiarized and will receive no marks.
-
----
-
-## Submission Checklist
-
-- [ ] Rename all files with your registration number
-- [ ] Create a folder named with your registration number
-- [ ] Include the full Playwright project (scripts + config files)
-- [ ] Include the completed Excel file (`IT23730724_Test cases.xlsx`)
-- [ ] Ensure the Git repository is **publicly accessible**
-- [ ] Zip the folder and upload to the `Assignment 1 Answer: Option 1` link on CourseWeb before **5th May**
